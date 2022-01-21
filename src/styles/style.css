@@ -1,0 +1,44 @@
+@import 'fonts.css';
+
+body {
+  font-family: 'Product Sans';
+}
+
+.nav {
+  position: relative;
+}
+
+.nav__list {
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.main__logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.main__logo-img {
+  padding: 0 50px;
+}
+
+.main__search {
+  width: 515px;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+}
